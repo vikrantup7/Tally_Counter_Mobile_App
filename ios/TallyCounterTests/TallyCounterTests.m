@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface CaterersAppTests : XCTestCase
+@interface TallyCounterTests : XCTestCase
 
 @end
 
-@implementation CaterersAppTests
+@implementation TallyCounterTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "CaterersApp.app"
-               BlueprintName = "CaterersApp"
-               ReferencedContainer = "container:CaterersApp.xcodeproj">
+               BuildableName = "TallyCounter.app"
+               BlueprintName = "TallyCounter"
+               ReferencedContainer = "container:TallyCounter.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "CaterersAppTests.xctest"
-               BlueprintName = "CaterersAppTests"
-               ReferencedContainer = "container:CaterersApp.xcodeproj">
+               BuildableName = "TallyCounterTests.xctest"
+               BlueprintName = "TallyCounterTests"
+               ReferencedContainer = "container:TallyCounter.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "CaterersApp.app"
-            BlueprintName = "CaterersApp"
-            ReferencedContainer = "container:CaterersApp.xcodeproj">
+            BuildableName = "TallyCounter.app"
+            BlueprintName = "TallyCounter"
+            ReferencedContainer = "container:TallyCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "CaterersApp.app"
-            BlueprintName = "CaterersApp"
-            ReferencedContainer = "container:CaterersApp.xcodeproj">
+            BuildableName = "TallyCounter.app"
+            BlueprintName = "TallyCounter"
+            ReferencedContainer = "container:TallyCounter.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

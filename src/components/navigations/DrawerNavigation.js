@@ -2,7 +2,6 @@ import React from 'react';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import NavDrawerComponent from './NavDrawerComponent';
 import TabNavigation from './TabNavigation';
-import AuthNavigation from './AuthNavigation';
 
 
 const Drawer = createDrawerNavigator();

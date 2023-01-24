@@ -19,7 +19,10 @@ const Main = () => {
   const tokenfunc = useSelector(state => state.user.tokenfunc);
   return (
     <NavigationContainer>
-      <TabNavigation/>
+      {/* <TabNavigation/> */}
+      {/* <AuthNavigation/> */}
+      {tokenfunc ?<TabNavigation/> : <AuthNavigation />}
+
     </NavigationContainer>
   );
 };

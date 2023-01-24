@@ -3,20 +3,18 @@ import {Image, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { Avatar, Icon } from 'react-native-elements';
-import Profile from '../screens/mainScreens/Profile';
+import Stats from '../screens/mainScreens/Stats';
 import { Colors, Fonts, fontScale } from '../../constants';
-import MessageScreen from '../screens/mainScreens/MessageScreen';
-import CreditHistory from '../screens/mainScreens/CreditHistory';
-import Notification from '../screens/mainScreens/Notification';
+import Home from '../screens/mainScreens/Home';
+import AddField from '../screens/mainScreens/AddField';
 const HomeStack = createNativeStackNavigator();
 const stack = createNativeStackNavigator();
 const HomeScreenStack = () => {
   return (
     <HomeStack.Navigator screenOptions={{ headerShown: false }}>
-      <HomeStack.Screen name="home" component={MessageScreen} />
-      <HomeStack.Screen name="profile" component={Profile} />
-      <HomeStack.Screen name="CreditHistory" component={CreditHistory} />
-      <HomeStack.Screen name="Notification" component={Notification} />
+      <HomeStack.Screen name="home" component={Home} />
+      <HomeStack.Screen name="Stats" component={Stats} />
+      <HomeStack.Screen name="AddField" component={AddField} />
 
     </HomeStack.Navigator>
   );
@@ -68,7 +66,7 @@ const TabNavigation = () => {
 
 <Tab.Screen
         name="Add"
-        component={CreditHistory}
+        component={AddField}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
@@ -89,7 +87,7 @@ const TabNavigation = () => {
 
 <Tab.Screen
         name="Stats"
-        component={Profile}
+        component={Stats}
         options={{
           tabBarIcon: ({ focused }) => {
             return (
